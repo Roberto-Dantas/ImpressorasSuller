@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Impressoras - Suller Garcia</title>      
+        <link rel="stylesheet" href="./style.css">
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        
+    </head>
+    <body>
+        <header>
+            <h2>Tonels de Impressoras - Suller Garcia</h2>
+        </header>
+        
+        <br><br><br>
+        
+        <h2>IMPRESSORA:</h2>
+        <br>
+        <div>
+            <select id="selecao_impressora">
+                
+            </select>
+            <br><br><br>
+            <h3>UNIDADE:</h3>
+            <label id="unidade_label"></label>
+
+            <br><br>
+
+            <h3>LOCAL:</h3>
+            <label id="local_label"></label>
+        </div>
+
+
+        <br><br>
+        <hr>
+        <br>
+
+        <h2>Tonels Cheios:</h2>
+        <br>
+        <center>
+        <div id="circulo">
+            <div class="circle" style="--clr:#09268BFE;">
+                <div class="dots porcentagem"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70" id="pont"></circle>
+                    </svg>
+                    <div id="qnt">0</div>
+            </div>
+        </div>
+        <br>
+        <div id="tintas">
+            <ul>
+            </ul>
+        </div>
+        </center>
+
+        <br><br>
+        <hr>
+        <br>
+        
+        <h2>Tonels Vazios:</h2>
+        <br>
+        <center>
+        <div id="circulo">
+            <div class="circle" style="--clr:#09268BFE;">
+                <div class="dots porcentagem1"></div>
+                    <svg>
+                        <circle cx="70" cy="70" r="70"></circle>
+                        <circle cx="70" cy="70" r="70" id="pont1"></circle>
+                    </svg>
+                    <div id="por1">0</div>
+            </div>
+        </div>
+        </center>
+
+        <br><br>
+
+        <footer>
+            <br>
+            <p><b>Desenvolvido por:</b> <br>Gabriel Vieira e Roberto Dantas</p><br>
+            <p><b>&copy; 2024</b></p>
+        </footer>
+        <script type="module" src="./script.js"></script>
+    </body>
+</html>
